@@ -25,6 +25,7 @@ function mostrarpokemon(datospokemon, ContenedorNumero){
     '
 }
 //error en busqueda de pokemon xddddddd
+
 function mostrarerror(ContenedorNumero){
     let infoDivid = ' pokemoninfo${ContenedorNumero}'; 
     let infoDiv = document.getElementById(infoDivid);
