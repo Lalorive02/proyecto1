@@ -34,3 +34,13 @@ function mostrarerror(ContenedorNumero){
     
     '
 }
+
+//se mostrara el pokemon inicial uwu
+
+window.onload = function(){
+    document.getElementById("pokemoninput1").valpe = "25";
+    buscarpokemon(1);
+    document.getElementById("pokemoninput2").valpe = "4";
+    buscarpokemon(2);
+
+}
