@@ -19,9 +19,9 @@ function mostrarpokemon(datospokemon, ContenedorNumero){
     infoDiv.innerHTML = '
     <h2 class="pk-name" >${datospokemon.name.toUpperCase()}</h2>
     <img class="pk-img" src="${datospokemon.sprites.other["official-artwork"].front_default}">
-    <p>Numero:${datospokemon.id}</p>
-    <p>weight:${datospokemon.weight/10}kg</p>
-    <p>height:${datospokemon.height}m</p>
+    <p><strong>Numero</strong>: ${datospokemon.id}</p>
+    <p><strong>weight</strong>: ${datospokemon.weight/10}kg</p>
+    <p><strong>height</strong>: ${datospokemon.height}m</p>
     '
 }
 //error en busqueda de pokemon xddddddd

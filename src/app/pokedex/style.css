@@ -46,4 +46,29 @@ input,button{
   margin: 10px;
   padding: 10px;
   font-size: 16px;
+  text-align: center;
+}
+
+#pokemoninput1, #pokemoninput2{
+  margin-top: 20px;
+
+}
+
+.pk-img{
+  height: 300px;
+  transition: 0.5s;
+}
+
+.pk-img:hover{
+  transform: scale(1.2);
+}
+
+.pk-name{
+  color: white;
+  font-size: 1.7rem;
+}
+
+.pk-ms{
+  color: white;
+  font-size: 1.2rem;
 }
